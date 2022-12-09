@@ -1,0 +1,12 @@
+n1 = int(input("Enter a value 1: "))
+n2 = int(input("Enter a value 2: "))
+n3 = int(input("Enter a value 3: "))
+n4 = int(input("Enter a value 4: "))
+n5 = int(input("Enter a value 5: "))
+a = [n1,n2,n3,n4,n5]
+b = sorted(a)
+print(b)
+m = int(input("Enter the m value : "))
+n = int(input("Enter the n value : "))
+print(b[-m])
+print(b[n-1])
