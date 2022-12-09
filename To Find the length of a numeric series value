@@ -1,0 +1,3 @@
+num = int(input("Enter a value :"))
+num = str(num)
+print("The length of the numeric value is",len(num))
