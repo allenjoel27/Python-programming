@@ -1,0 +1,6 @@
+total_num = 0
+for n in range (10):
+    num = float(input('Enter number: '))
+    total_num += num
+avg = total_num / 10
+print('Average of numbers =',avg)
