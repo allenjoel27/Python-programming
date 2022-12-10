@@ -1,0 +1,17 @@
+# Create Program to sort a string in alphabetical order and reverse it
+
+string = input("Enter a string : ")
+string_1 = string.upper()
+sorted_str = sorted(string_1)
+def rev(sorted_str):
+    sorted_str = sorted_str[::-1]
+    return sorted_str
+    
+print("Normal order : ", sorted_str)
+print("Reverse order : ", rev(sorted_str))
+
+# Example Output:
+
+# Enter a string: indian
+# Normal order :  ['A', 'D', 'I', 'I', 'N', 'N']
+# Reverse order :  ['N', 'N', 'I', 'I', 'D', 'A']
