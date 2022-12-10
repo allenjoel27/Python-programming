@@ -1,0 +1,18 @@
+#Update Program to find the num of vowels and consonants present in a string
+
+string = input("Enter a string: ")
+count_vowels = 0
+count_consonants = 0
+for i in string:
+    if i == "a" or i == "A" or i == "e" or i == "E" or i == "o" or i == "O" or i == "i" or i == "I" or i == "u" or i == "U":
+        count_vowels = count_vowels + 1
+    else:
+        count_consonants = count_consonants + 1
+        
+print("The total number of vowels in the string is", count_vowels)
+print("The total number of consonants in the string is", count_consonants)
+
+#Example output:
+#Enter a string: Downsouth
+#The total number of vowels in the string is 3
+#The total number of consonants in the string is 6
