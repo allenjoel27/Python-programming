@@ -1,0 +1,16 @@
+# Create Program to find whither a string is present inside another string
+
+print("Identify the character in another character")
+char_1 = input("Enter a character : ")
+char_2 = input("Enter another Character : ")
+if char_2 in char_1:
+    print("Present at" , char_1.index(char_2))
+else:
+    print("Not present")
+    
+# Example Output:
+
+# Identify the character in another character
+# Enter a character: India won the match
+# Enter another Character: won
+# Present at 6
