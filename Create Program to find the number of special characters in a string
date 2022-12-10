@@ -1,0 +1,19 @@
+#Create Program to find the number of special characters in a string
+
+string = input("Enter a value for string using specail character : ")
+spl_count = 0
+for i in string:
+	if i in "[@_!$%^&*()<>?/\|}{~:]#":
+		spl_count = spl_count + 1
+	elif i != "[@_!$%^&*()<>?/\|}{~:]#":
+		print("The string does not contain any special characters")
+
+print("The total number of special characters in the given string is", spl_count)
+
+#Example Output:
+
+#Enter a value for string using specail character : ABS@#$%
+#The string does not contain any special characters
+#The string does not contain any special characters
+#The string does not contain any special characters
+#The total number of special characters in the given string is 4
